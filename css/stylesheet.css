@@ -37,7 +37,7 @@ body {
 }
 
 .img-fluid {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
 }
 
@@ -63,6 +63,11 @@ body {
   padding-left: 0;
   padding-right: 0;
   background-color: #343a41;
+}
+
+.footer-row {
+  margin-left: 0;
+  margin-right: 0;
 }
 
 h2 {
@@ -91,11 +96,7 @@ h2 {
   }
 }
 
-  @media (min-width: 600px) {
-    .navbar-brand {
-      font-size: 24px;
-    }
-  }
+
 
 @media (min-width: 800px) {
 
