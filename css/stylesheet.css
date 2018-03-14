@@ -1,0 +1,102 @@
+h5 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+body {
+  background-color: #DBD7D5;
+}
+
+.card-title {
+  color: #343A41;
+}
+
+.featured_work {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.featured_work_box {
+  background-color: #343A41;
+}
+
+.featured_work_text {
+  color: white;
+}
+
+.work_row {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.card-group {
+  display: flex;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.cover-pic {
+  padding: 10px;
+}
+
+.example {
+  height: 100%;
+}
+
+.card {
+  height: 100%;
+}
+.logo {
+  max-width: 60px;
+  min-width: 40px;
+  height: auto;
+  padding: 5px;
+}
+
+.footer-bar {
+  padding-left: 0;
+  padding-right: 0;
+  background-color: #343a41;
+}
+
+h2 {
+  color: #7d97ad;
+}
+
+.dropped-content {
+  padding-top: 24px;
+  padding-bottom: 24;
+}
+
+@media (max-width: 470px) {
+  body {
+    font-size: 10px;
+    }
+  p {
+    font-size: 10px;
+    }
+  h5 {
+    font-size: 16px;
+    }
+
+  .dropped-content {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+
+  @media (min-width: 600px) {
+    .navbar-brand {
+      font-size: 24px;
+    }
+  }
+
+@media (min-width: 800px) {
+
+}
