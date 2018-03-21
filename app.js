@@ -8,4 +8,6 @@ function imgToggle (imgId, codeImg, previewImg) {
   });
 };
 
-imgToggle('#movie', 'img/movie_code.png', 'test.png');
+imgToggle('#movie', 'img/movie_code.png', 'img/movie_preview.png');
+imgToggle('#geo', 'img/geo_code.png', 'img/geo_preview.png');
+imgToggle('#site', 'img/site_code.png', 'img/adam_dance_small.png');
